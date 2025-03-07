@@ -1,2 +1,2 @@
- "Hello, Git!". 
- 
+"# git_practice"  
+"Новая функция" 
