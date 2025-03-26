@@ -1,0 +1,420 @@
+﻿  CentralBank.cpp
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Client.h(2,7): error C2011: Client: переопределение типа "class"
+  (компиляция исходного файла "CentralBank.cpp")
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Client.h(2,7):
+       см. объявление "Client"
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Account.h(40,22): error C2535: bool Account::transfer(Account &,double): функция-член уже определена или объявлена
+  (компиляция исходного файла "CentralBank.cpp")
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Account.h(34,18):
+       см. объявление "Account::transfer"
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Transaction.h(26,10): error C2365: Transaction::isCancelled: переопределение; предыдущим определением было "данные-член"
+  (компиляция исходного файла "CentralBank.cpp")
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Transaction.h(14,10):
+       см. объявление "Transaction::isCancelled"
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Transaction.h(26,32): error C2059: синтаксическая ошибка: return
+  (компиляция исходного файла "CentralBank.cpp")
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Transaction.h(26,50): error C2238: непредвиденные лексемы перед ";"
+  (компиляция исходного файла "CentralBank.cpp")
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Transaction.h(27,5): error C2377: time_t: переопределение; typedef нельзя перегрузить другим символом
+  (компиляция исходного файла "CentralBank.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt.h(645,28):
+       см. объявление "time_t"
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Transaction.h(27,5): error C2512: Transaction: нет подходящего конструктора по умолчанию
+  (компиляция исходного файла "CentralBank.cpp")
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Transaction.h(8,7):
+       см. объявление "Transaction"
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Transaction.h(27,12): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "getTimestamp"
+  (компиляция исходного файла "CentralBank.cpp")
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Transaction.h(27,25): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "CentralBank.cpp")
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Transaction.h(27,33): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+  (компиляция исходного файла "CentralBank.cpp")
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Transaction.h(27,33): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+  (компиляция исходного файла "CentralBank.cpp")
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Transaction.h(31,1): error C2059: синтаксическая ошибка: }
+  (компиляция исходного файла "CentralBank.cpp")
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Transaction.h(31,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+  (компиляция исходного файла "CentralBank.cpp")
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Bank.h(15,12): error C2011: AccountType: переопределение типа "enum"
+  (компиляция исходного файла "CentralBank.cpp")
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Account.h(8,12):
+       см. объявление "AccountType"
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Bank.h(31,5): error C2535: Bank::Bank(const std::string &,CentralBank *): функция-член уже определена или объявлена
+  (компиляция исходного файла "CentralBank.cpp")
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Bank.h(29,5):
+       см. объявление "Bank::Bank"
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Bank.h(45,13): warning C4150: удаление указателя на неполный тип "Client"; деструктор не вызван
+  (компиляция исходного файла "CentralBank.cpp")
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Client.h(2,7):
+       см. объявление "Client"
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Bank.h(58,27): error C2027: использование неопределенного типа "AccountType"
+  (компиляция исходного файла "CentralBank.cpp")
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Account.h(8,12):
+       см. объявление "AccountType"
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Bank.h(58,27): error C2065: DEBIT: необъявленный идентификатор
+  (компиляция исходного файла "CentralBank.cpp")
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Bank.h(58,27): error C2131: выражение не определяется константой
+  (компиляция исходного файла "CentralBank.cpp")
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Bank.h(58,27):
+      обнаружено неконстантное (под)выражение
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Bank.h(61,27): error C2027: использование неопределенного типа "AccountType"
+  (компиляция исходного файла "CentralBank.cpp")
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Account.h(8,12):
+       см. объявление "AccountType"
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Bank.h(61,27): error C2065: DEPOSIT: необъявленный идентификатор
+  (компиляция исходного файла "CentralBank.cpp")
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Bank.h(61,27): error C2131: выражение не определяется константой
+  (компиляция исходного файла "CentralBank.cpp")
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Bank.h(61,27):
+      обнаружено неконстантное (под)выражение
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Bank.h(65,27): error C2027: использование неопределенного типа "AccountType"
+  (компиляция исходного файла "CentralBank.cpp")
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Account.h(8,12):
+       см. объявление "AccountType"
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Bank.h(65,27): error C2065: CREDIT: необъявленный идентификатор
+  (компиляция исходного файла "CentralBank.cpp")
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Bank.h(65,27): error C2131: выражение не определяется константой
+  (компиляция исходного файла "CentralBank.cpp")
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Bank.h(65,27):
+      обнаружено неконстантное (под)выражение
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Bank.h(58,27): error C2051: значение выражения для варианта выбора не является константой
+  (компиляция исходного файла "CentralBank.cpp")
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Bank.h(61,27): error C2051: значение выражения для варианта выбора не является константой
+  (компиляция исходного файла "CentralBank.cpp")
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Bank.h(65,27): error C2051: значение выражения для варианта выбора не является константой
+  (компиляция исходного файла "CentralBank.cpp")
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Bank.h(70,9): warning C4065: оператор switch содержит метку "default", но не содержит ни одной метки "case"
+  (компиляция исходного файла "CentralBank.cpp")
+  
+  main.cpp
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Client.h(2,7): error C2011: Client: переопределение типа "class"
+  (компиляция исходного файла "main.cpp")
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Client.h(2,7):
+       см. объявление "Client"
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Account.h(40,22): error C2535: bool Account::transfer(Account &,double): функция-член уже определена или объявлена
+  (компиляция исходного файла "main.cpp")
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Account.h(34,18):
+       см. объявление "Account::transfer"
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Transaction.h(26,10): error C2365: Transaction::isCancelled: переопределение; предыдущим определением было "данные-член"
+  (компиляция исходного файла "main.cpp")
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Transaction.h(14,10):
+       см. объявление "Transaction::isCancelled"
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Transaction.h(26,32): error C2059: синтаксическая ошибка: return
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Transaction.h(26,50): error C2238: непредвиденные лексемы перед ";"
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Transaction.h(27,5): error C2377: time_t: переопределение; typedef нельзя перегрузить другим символом
+  (компиляция исходного файла "main.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt.h(645,28):
+       см. объявление "time_t"
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Transaction.h(27,5): error C2512: Transaction: нет подходящего конструктора по умолчанию
+  (компиляция исходного файла "main.cpp")
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Transaction.h(8,7):
+       см. объявление "Transaction"
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Transaction.h(27,12): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "getTimestamp"
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Transaction.h(27,25): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Transaction.h(27,33): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Transaction.h(27,33): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Transaction.h(31,1): error C2059: синтаксическая ошибка: }
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Transaction.h(31,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Bank.h(15,12): error C2011: AccountType: переопределение типа "enum"
+  (компиляция исходного файла "main.cpp")
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Account.h(8,12):
+       см. объявление "AccountType"
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Bank.h(31,5): error C2535: Bank::Bank(const std::string &,CentralBank *): функция-член уже определена или объявлена
+  (компиляция исходного файла "main.cpp")
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Bank.h(29,5):
+       см. объявление "Bank::Bank"
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Bank.h(45,13): warning C4150: удаление указателя на неполный тип "Client"; деструктор не вызван
+  (компиляция исходного файла "main.cpp")
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Client.h(2,7):
+       см. объявление "Client"
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Bank.h(58,27): error C2027: использование неопределенного типа "AccountType"
+  (компиляция исходного файла "main.cpp")
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Account.h(8,12):
+       см. объявление "AccountType"
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Bank.h(58,27): error C2065: DEBIT: необъявленный идентификатор
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Bank.h(58,27): error C2131: выражение не определяется константой
+  (компиляция исходного файла "main.cpp")
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Bank.h(58,27):
+      обнаружено неконстантное (под)выражение
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Bank.h(61,27): error C2027: использование неопределенного типа "AccountType"
+  (компиляция исходного файла "main.cpp")
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Account.h(8,12):
+       см. объявление "AccountType"
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Bank.h(61,27): error C2065: DEPOSIT: необъявленный идентификатор
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Bank.h(61,27): error C2131: выражение не определяется константой
+  (компиляция исходного файла "main.cpp")
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Bank.h(61,27):
+      обнаружено неконстантное (под)выражение
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Bank.h(65,27): error C2027: использование неопределенного типа "AccountType"
+  (компиляция исходного файла "main.cpp")
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Account.h(8,12):
+       см. объявление "AccountType"
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Bank.h(65,27): error C2065: CREDIT: необъявленный идентификатор
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Bank.h(65,27): error C2131: выражение не определяется константой
+  (компиляция исходного файла "main.cpp")
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Bank.h(65,27):
+      обнаружено неконстантное (под)выражение
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Bank.h(58,27): error C2051: значение выражения для варианта выбора не является константой
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Bank.h(61,27): error C2051: значение выражения для варианта выбора не является константой
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Bank.h(65,27): error C2051: значение выражения для варианта выбора не является константой
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Bank.h(70,9): warning C4065: оператор switch содержит метку "default", но не содержит ни одной метки "case"
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\ConsoleInterface.h(61,36): error C2027: использование неопределенного типа "Client"
+  (компиляция исходного файла "main.cpp")
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Client.h(2,7):
+       см. объявление "Client"
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\ConsoleInterface.h(75,52): error C2027: использование неопределенного типа "Client"
+  (компиляция исходного файла "main.cpp")
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Client.h(2,7):
+       см. объявление "Client"
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\ConsoleInterface.h(96,37): error C2027: использование неопределенного типа "AccountType"
+  (компиляция исходного файла "main.cpp")
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Account.h(8,12):
+       см. объявление "AccountType"
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\ConsoleInterface.h(96,37): error C2065: DEBIT: необъявленный идентификатор
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\ConsoleInterface.h(97,37): error C2027: использование неопределенного типа "AccountType"
+  (компиляция исходного файла "main.cpp")
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Account.h(8,12):
+       см. объявление "AccountType"
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\ConsoleInterface.h(97,37): error C2065: DEPOSIT: необъявленный идентификатор
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\ConsoleInterface.h(98,37): error C2027: использование неопределенного типа "AccountType"
+  (компиляция исходного файла "main.cpp")
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Account.h(8,12):
+       см. объявление "AccountType"
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\ConsoleInterface.h(98,37): error C2065: CREDIT: необъявленный идентификатор
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\ConsoleInterface.h(108,27): error C2027: использование неопределенного типа "AccountType"
+  (компиляция исходного файла "main.cpp")
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Account.h(8,12):
+       см. объявление "AccountType"
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\ConsoleInterface.h(108,27): error C2065: DEBIT: необъявленный идентификатор
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\ConsoleInterface.h(108,27): error C2131: выражение не определяется константой
+  (компиляция исходного файла "main.cpp")
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\ConsoleInterface.h(108,27):
+      обнаружено неконстантное (под)выражение
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\ConsoleInterface.h(112,27): error C2027: использование неопределенного типа "AccountType"
+  (компиляция исходного файла "main.cpp")
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Account.h(8,12):
+       см. объявление "AccountType"
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\ConsoleInterface.h(112,27): error C2065: DEPOSIT: необъявленный идентификатор
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\ConsoleInterface.h(112,27): error C2131: выражение не определяется константой
+  (компиляция исходного файла "main.cpp")
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\ConsoleInterface.h(112,27):
+      обнаружено неконстантное (под)выражение
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\ConsoleInterface.h(117,27): error C2027: использование неопределенного типа "AccountType"
+  (компиляция исходного файла "main.cpp")
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Account.h(8,12):
+       см. объявление "AccountType"
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\ConsoleInterface.h(117,27): error C2065: CREDIT: необъявленный идентификатор
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\ConsoleInterface.h(117,27): error C2131: выражение не определяется константой
+  (компиляция исходного файла "main.cpp")
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\ConsoleInterface.h(117,27):
+      обнаружено неконстантное (под)выражение
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\ConsoleInterface.h(108,27): error C2051: значение выражения для варианта выбора не является константой
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\ConsoleInterface.h(112,27): error C2051: значение выражения для варианта выбора не является константой
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\ConsoleInterface.h(117,27): error C2051: значение выражения для варианта выбора не является константой
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\ConsoleInterface.h(121,9): warning C4060: оператор switch не содержит метку "case" или "default"
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\ConsoleInterface.h(158,26): error C2039: "execute": не является членом "Transaction".
+  (компиляция исходного файла "main.cpp")
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Transaction.h(8,7):
+       см. объявление "Transaction"
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\ConsoleInterface.h(188,39): error C2039: "cancel": не является членом "Transaction".
+  (компиляция исходного файла "main.cpp")
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Transaction.h(8,7):
+       см. объявление "Transaction"
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\ConsoleInterface.h(216,68): error C2027: использование неопределенного типа "AccountType"
+  (компиляция исходного файла "main.cpp")
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Account.h(8,12):
+       см. объявление "AccountType"
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\ConsoleInterface.h(216,68): error C2065: DEBIT: необъявленный идентификатор
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\ConsoleInterface.h(217,52): error C2027: использование неопределенного типа "AccountType"
+  (компиляция исходного файла "main.cpp")
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Account.h(8,12):
+       см. объявление "AccountType"
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\ConsoleInterface.h(217,52): error C2065: DEPOSIT: необъявленный идентификатор
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\ConsoleInterface.h(219,60): error C2027: использование неопределенного типа "Client"
+  (компиляция исходного файла "main.cpp")
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Client.h(2,7):
+       см. объявление "Client"
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\ConsoleInterface.h(226,60): error C2027: использование неопределенного типа "AccountType"
+  (компиляция исходного файла "main.cpp")
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Account.h(8,12):
+       см. объявление "AccountType"
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\ConsoleInterface.h(226,60): error C2065: DEBIT: необъявленный идентификатор
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\ConsoleInterface.h(227,60): error C2027: использование неопределенного типа "AccountType"
+  (компиляция исходного файла "main.cpp")
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\Account.h(8,12):
+       см. объявление "AccountType"
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\ConsoleInterface.h(227,60): error C2065: DEPOSIT: необъявленный идентификатор
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\AccountType.h(18,46): error C2027: использование неопределенного типа "AccountType"
+  (компиляция исходного файла "main.cpp")
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\AccountType.h(9,12):
+       см. объявление "AccountType"
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\AccountType.h(18,46): error C2065: DEBIT: необъявленный идентификатор
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\AccountType.h(19,48): error C2027: использование неопределенного типа "AccountType"
+  (компиляция исходного файла "main.cpp")
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\AccountType.h(9,12):
+       см. объявление "AccountType"
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\AccountType.h(19,48): error C2065: DEPOSIT: необъявленный идентификатор
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\AccountType.h(20,47): error C2027: использование неопределенного типа "AccountType"
+  (компиляция исходного файла "main.cpp")
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\AccountType.h(9,12):
+       см. объявление "AccountType"
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\AccountType.h(20,47): error C2065: CREDIT: необъявленный идентификатор
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\main.cpp(38,27): error C2027: использование неопределенного типа "AccountType"
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\AccountType.h(9,12):
+       см. объявление "AccountType"
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\main.cpp(38,27): error C2065: DEBIT: необъявленный идентификатор
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\main.cpp(38,27): error C2131: выражение не определяется константой
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\main.cpp(38,27):
+      обнаружено неконстантное (под)выражение
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\main.cpp(41,27): error C2027: использование неопределенного типа "AccountType"
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\AccountType.h(9,12):
+       см. объявление "AccountType"
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\main.cpp(41,27): error C2065: DEPOSIT: необъявленный идентификатор
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\main.cpp(41,27): error C2131: выражение не определяется константой
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\main.cpp(41,27):
+      обнаружено неконстантное (под)выражение
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\main.cpp(44,27): error C2027: использование неопределенного типа "AccountType"
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\AccountType.h(9,12):
+       см. объявление "AccountType"
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\main.cpp(44,27): error C2065: CREDIT: необъявленный идентификатор
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\main.cpp(44,27): error C2131: выражение не определяется константой
+      C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\main.cpp(44,27):
+      обнаружено неконстантное (под)выражение
+  
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\main.cpp(38,27): error C2051: значение выражения для варианта выбора не является константой
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\main.cpp(41,27): error C2051: значение выражения для варианта выбора не является константой
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\main.cpp(44,27): error C2051: значение выражения для варианта выбора не является константой
+C:\Users\studentcoll\source\repos\ConsoleApplication67\ConsoleApplication67\main.cpp(49,9): warning C4065: оператор switch содержит метку "default", но не содержит ни одной метки "case"
+  Создание кода...
